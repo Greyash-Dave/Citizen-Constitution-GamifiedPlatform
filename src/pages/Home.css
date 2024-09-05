@@ -13,6 +13,15 @@
     position: relative;
     background-color: #1b222c;
     padding: 1rem;
+    position: relative;
+}
+
+.header-section img{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(+70%, -50%);
+    width: 10rem;
 }
 
 .header-section h1 {
@@ -22,6 +31,13 @@
 }
 
 .header-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+    color: #FBAC1B;
+}
+
+.header-section h3 {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
     font-weight: 300;

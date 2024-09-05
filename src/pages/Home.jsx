@@ -35,8 +35,10 @@ const Home = () => {
     <>
     <div className="home-container">
       <div className="header-section">
+        <img className='grey-img' src='/Grey-Logo.png' />
         <h1>Citizen & Constitution</h1>
-        <h2>Empower Yourself with the Knowledge of Your Rights</h2>
+        <h2>नागरिक और संविधान</h2>
+        <h3>Empower Yourself with the Knowledge of Your Rights</h3>
         <p className="subheadline">
           Discover the Constitution of India through an Engaging and Gamified Experience
         </p>
