@@ -1,0 +1,119 @@
+.dashboard-container {
+    margin-left: 6rem;
+    padding: 5rem;
+    background-color: hsl(229, 9%, 23%);
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-container h1 {
+    color: #FBAC1B;
+    text-align: center;
+    border-bottom: 2px solid #FF6F61;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    background-color: hsl(215, 24%, 14%);
+    padding: 2rem;
+  }
+  
+  .dashboard-container h2 {
+    color: #FF6F61;
+    margin-bottom: 15px;
+  }
+  
+  .dashboard-container h3 {
+    color: #FBAC1B;
+    margin-bottom: 10px;
+  }
+
+  .dashboard-container p{
+    line-height: 2.75rem;
+  }
+  
+  .dashboard-container .quick-access {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .dashboard-container .widget {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    background-color: #1E1F24;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+  }
+  
+  .dashboard-container .learning-progress,
+  .dashboard-container .achievements,
+  .dashboard-container .upcoming-events,
+  .dashboard-container .study-groups,
+  .dashboard-container .learning-goals {
+    background-color: #1E1F24;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .dashboard-container .module-progress,
+  .dashboard-container .event-item,
+  .dashboard-container .group-item {
+    margin-bottom: 15px;
+  }
+  
+  .dashboard-container progress {
+    width: 100%;
+    height: 15px;
+    border-radius: 7px;
+    background-color: #242529;
+  }
+  
+  .dashboard-container progress::-webkit-progress-value {
+    background-color: #FBAC1B;
+    border-radius: 7px;
+  }
+  
+  .dashboard-container progress::-webkit-progress-bar {
+    background-color: #242529;
+    border-radius: 7px;
+  }
+  
+  .dashboard-container ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .dashboard-container li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #242529;
+    border-radius: 5px;
+  }
+  
+  .dashboard-container button {
+    background-color: #FBAC1B;
+    color: #16171B;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard-container button:hover {
+    background-color: #FF6F61;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-container .quick-access {
+      flex-direction: column;
+    }
+  
+    .dashboard-container .widget {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  }

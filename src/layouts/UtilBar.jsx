@@ -1,27 +1,34 @@
-import React, { useState, useEffect } from 'react'
-import './UtilBar.css'
+import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import './UtilBar.css';
 
-import TopBar from '../components/TopBar'
-import SideBar from '../components/SideBar'
+import TopBar from '../components/TopBar';
+import SideBar from '../components/SideBar';
 
 const UtilBar = () => {
-  const [bgClass, setBgClass] = useState('')
+  const [bgClass, setBgClass] = useState('');
+  const { pathname } = useLocation(); // Get current path
 
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 0) {
-        setBgClass('scrolled')
+        setBgClass('scrolled');
       } else {
-        setBgClass('')
+        setBgClass('');
       }
-    }
+    };
 
-    window.addEventListener('scroll', handleScroll)
-    
+    window.addEventListener('scroll', handleScroll);
+
     return () => {
-      window.removeEventListener('scroll', handleScroll)
-    }
-  }, [])
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    // Scroll to the top whenever the path changes
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   return (
     <div className="utilbar-container">
@@ -32,7 +39,7 @@ const UtilBar = () => {
         <SideBar />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default UtilBar
+export default UtilBar;

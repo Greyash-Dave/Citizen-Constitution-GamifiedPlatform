@@ -1,6 +1,6 @@
 .home-container {
     max-width: 100%;
-    background-color: #16171B;
+    background-color: #34363f;
     color: white;
     margin-left: 6rem;
     padding: 2rem 2rem;
@@ -11,7 +11,7 @@
     text-align: center;
     margin-bottom: 3rem;
     position: relative;
-    background-color: #2D3748;
+    background-color: #1b222c;
     padding: 1rem;
 }
 
@@ -61,7 +61,7 @@
     margin-bottom: 2.5rem;
     padding: 1rem;
     border-radius: 1rem;
-    background: linear-gradient(145deg, #ffefd2, #ffc75f, #ff7300);
+    background: linear-gradient(145deg, hsl(231, 8%, 17%), hsl(230, 9%, 13%), hsl(230, 9%, 13%), hsl(230, 9%, 13%), hsl(230, 9%, 13%), hsl(231, 8%, 17%));
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     margin: 3rem 7rem;
     padding: 2rem;
@@ -73,13 +73,14 @@
     padding: 1rem;
     border-radius: 1rem;
     background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.176);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .about-us h2, .games h2, .features h2, .target-audience h2, .testimonials h2, .blog h2, .cta h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: black;
+    color: #FF6F61;
     text-align: center;
 }
 
@@ -89,7 +90,7 @@
 
 .features .feature-item h3 {
     font-size: 1.5rem;
-    color: black;
+    color: #FBAC1B;
 }
 
 .testimonials blockquote {
@@ -97,9 +98,16 @@
     padding-left: 1.5rem;
     margin-bottom: 1.5rem;
     font-style: italic;
-    background-color: rgba(255, 255, 255, 0.176);
+    background-color: hsla(30, 100%, 78%, 0.379);
     border-radius: 0.5rem;
     position: relative;
+    background: rgba(255, 255, 255, 0.03); /* Semi-transparent background */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px; /* Inner spacing */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    backdrop-filter: blur(100px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    color: #fff; /* Text color */
 }
 
 .testimonials blockquote::before {
@@ -119,7 +127,7 @@
 .blog li , .target-audience li{
     list-style-type: disc;
     padding-left: 1.5rem;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.176);
     border-radius: 0.5rem;
     padding: 1rem;
     list-style: none;

@@ -5,17 +5,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0000001e;
+    background-color: hsla(28, 25%, 56%, 0.402);
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px #0000001a;
     overflow: hidden;
     border-left: 4px solid hsl(27, 100%, 50%);
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    backdrop-filter: blur(100px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    color: #fff; /* Text color */
 }
 
 .rcard-title{
-    color: black;
+    color: white;
     font-size: 0.7rem;
     margin: 1rem;
+    color: #FBAC1B;
 }
 
 .rcard-desc{
@@ -37,7 +43,7 @@
 }
 
 .rcard-genre{
-    color: white;
+    color: black;
     font-size: 1rem;
     margin: 1rem;
 }
@@ -48,7 +54,7 @@
 
 .rcard-image{
     
-    rotate: 0deg    ;
+    rotate: 0deg;
     transform: scale(1);
     width: 40%;
     height: 100%;

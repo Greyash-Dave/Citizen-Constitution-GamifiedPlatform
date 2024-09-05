@@ -23,6 +23,12 @@ const Home = () => {
       detail: 'Test of Knowledge',
       image: '/board-card-games.jpg'
     },
+    {
+      title: 'Coming Soon',
+      description: '?',
+      detail: '???',
+      image: '/comin-soon.jpg'
+    },
     
   ]
   return (
