@@ -7,7 +7,7 @@ const Home = () => {
   const datas = [
     {
       title: 'Visual Novel',
-      description: 'The protagonist is driven to make descisions, It all depends on your choice',
+      description: 'The protagonist is driven to make decisions, It all depends on your choice',
       detail: 'Experience scenarios which require the knowledge of the Citizen Rights and Duties.',
       image: '/vn-game.png'
     },
@@ -35,13 +35,19 @@ const Home = () => {
     <>
     <div className="home-container">
       <div className="header-section">
-        <img className='grey-img' src='/Grey-Logo.png' />
-        <h1>Citizen & Constitution</h1>
-        <h2>नागरिक और संविधान</h2>
-        <h3>Empower Yourself with the Knowledge of Your Rights</h3>
-        <p className="subheadline">
-          Discover the Constitution of India through an Engaging and Gamified Experience
-        </p>
+        <div className="header-container">
+          <div>
+            <img className='grey-img' src='/logo.png' />
+          </div>
+          <div>
+              <h1>Citizen & Constitution</h1>
+              <h2>नागरिक और संविधान</h2>
+              <h3>Empower Yourself with the Knowledge of Your Rights</h3>
+              <p className="subheadline">
+                Discover the Constitution of India through an Engaging and Gamified Experience
+              </p>
+          </div>
+        </div>
       </div>
 
       <div className="about-us">
