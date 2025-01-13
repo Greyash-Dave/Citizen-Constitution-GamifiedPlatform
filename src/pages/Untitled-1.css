@@ -1,0 +1,118 @@
+/* Home.css */
+.home-container {
+    margin-left: 6rem;
+    padding: 5rem;
+    background-color: #16171B;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+
+  .header-section {
+    text-align: center;
+    margin-bottom: 3rem;
+    position: relative;
+    background-color: #2D3748;
+    padding: 1rem;
+}
+  
+  .home-container h1 {
+    color: #FBAC1B;
+    border-bottom: 2px solid #FF6F61;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .home-container h2 {
+    color: #FF6F61;
+    margin-bottom: 15px;
+  }
+  
+  .header-section,
+  .about-us,
+  .games,
+  .features,
+  .target-audience,
+  .testimonials,
+  .blog,
+  .cta {
+    background-color: #1E1F24;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .feature-item,
+  .target-audience li,
+  .blog li {
+    margin-bottom: 15px;
+  }
+  
+  .home-container p,
+  .home-container ul {
+    margin-bottom: 15px;
+  }
+  
+  .home-container ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .home-container ul li {
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .home-container ul li::before {
+    content: "•";
+    color: #FBAC1B;
+    position: absolute;
+    left: 0;
+  }
+  
+  .home-container blockquote {
+    border-left: 4px solid #FBAC1B;
+    padding-left: 20px;
+    margin-left: 0;
+    font-style: italic;
+  }
+  
+  .home-container blockquote footer {
+    text-align: right;
+    color: #FF6F61;
+    font-style: normal;
+  }
+  
+  .cta-button {
+    padding: 8px 15px;
+    background-color: #FBAC1B;
+    color: #16171B;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #FF6F61;
+  }
+  
+  @media (max-width: 600px) {
+    .home-container {
+      margin-left: 0;
+      padding: 2rem;
+    }
+  
+    .about-us,
+    .games,
+    .features,
+    .target-audience,
+    .testimonials,
+    .blog,
+    .cta {
+      padding: 15px;
+    }
+  
+    .cta-button {
+      width: 100%;
+    }
+  }

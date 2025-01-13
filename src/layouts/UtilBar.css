@@ -1,0 +1,18 @@
+.utilbar-container {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.topbar {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transform: translate(-100%, 0);
+}
+
+.sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

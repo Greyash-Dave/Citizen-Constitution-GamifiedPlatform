@@ -1,0 +1,106 @@
+.leaderboard-container {
+    margin-left: 6rem;
+    padding: 5rem;
+    background-color: hsl(229, 9%, 23%);
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .leaderboard-container h1 {
+    color: #FBAC1B;
+    text-align: center;
+    border-bottom: 2px solid #FF6F61;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    background-color: hsl(215, 24%, 14%);
+    padding: 2rem;
+  }
+  
+  .leaderboard-container h2 {
+    color: #FF6F61;
+    margin-bottom: 15px;
+  }
+
+  .leaderboard-container p{
+    line-height: 2.5rem;
+  }
+  
+  .leaderboard-container .leaderboard-overview,
+  .leaderboard-container .top-players,
+  .leaderboard-container .user-rank,
+  .leaderboard-container .leaderboard-tiers,
+  .leaderboard-container .recent-activity,
+  .leaderboard-container .motivation-tips {
+    background-color: #1E1F24;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .leaderboard-container .top-players ol {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .leaderboard-container .player-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #242529;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .leaderboard-container .player-rank {
+    font-weight: bold;
+    color: #FBAC1B;
+    min-width: 30px;
+  }
+  
+  .leaderboard-container .player-name {
+    flex-grow: 1;
+    margin: 0 15px;
+  }
+  
+  .leaderboard-container .player-xp {
+    color: #FF6F61;
+  }
+  
+  .leaderboard-container .user-rank {
+    text-align: center;
+  }
+  
+  .leaderboard-container .leaderboard-tiers ul,
+  .leaderboard-container .recent-activity ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .leaderboard-container .leaderboard-tiers li,
+  .leaderboard-container .recent-activity li {
+    background-color: #242529;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .leaderboard-container .motivation-tips p {
+    background-color: #242529;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .leaderboard-container .player-info {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .leaderboard-container .player-rank,
+    .leaderboard-container .player-name,
+    .leaderboard-container .player-xp {
+      margin-bottom: 5px;
+    }
+  }

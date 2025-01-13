@@ -1,0 +1,50 @@
+.topbar-container nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.topbar-container nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 5rem;
+}
+
+.topbar-container nav ul li a img {
+    height: 1.75rem; /* Match the height of the link */
+    filter: invert(1);
+}
+
+.topbar-container nav ul li a:hover {
+    background-color: #000000;
+}
+
+.topbar-container {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    /* border-radius: 5rem; */
+    /* Add other styling as needed */
+}
+
+.topbar-container{
+    border-radius: 5rem;
+
+}
+
+.topbar-container.scrolled {
+    background-color: rgba(0, 0, 0, 0.75);
+    /* Add other styling as needed */
+}
+
+.topbar-container.scrolled nav ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.25);
+    /* Add other styling as needed */
+}
+
+.topbar-container nav ul li a:hover img{
+    filter: brightness(0) saturate(100%) invert(73%) sepia(87%) saturate(1000%) hue-rotate(-10deg) brightness(100%) contrast(105%);
+}

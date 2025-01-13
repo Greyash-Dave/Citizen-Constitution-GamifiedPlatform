@@ -1,0 +1,58 @@
+.recomended-section {
+    width: 100%;
+    height: 20rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Ensure that the swiper container is the reference for absolute positioning */
+}
+
+.rcard {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.dcard{
+    width: 80%;
+    height: 100%;
+    transform: translateX(12.5%);
+}
+
+.mySwiper {
+    width: 100%; /* Adjust the width to make the swiper and card appear centered */
+    height: 100%; /* Full height of the section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Positioning context for the arrows */
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    /* transform: translateY(-50%); */
+    z-index: 10; /* Ensure arrows are above other elements */
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after{
+    color: white;
+}
+
+.swiper-button-next {
+    right: -20px; /* Move the next button to the right side, outside the swiper */
+}
+
+.swiper-button-prev {
+    left: -20px; /* Move the previous button to the left side, outside the swiper */
+}
