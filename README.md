@@ -8,6 +8,15 @@ Citizen & Constitution is a **gamified learning platform** designed to educate c
 
 🔗 [Watch the video on YouTube](https://www.youtube.com/watch?v=OO9dnwtZrN4)  
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Greyash-Dave/Greyash-Dave/main/images/Citizen_Constitution_GamifiedPlatform/cac2.webp" alt="Screen Shot Image">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Greyash-Dave/Greyash-Dave/main/images/Citizen_Constitution_GamifiedPlatform/cac1.webp" alt="Screen Shot Image">
+</p>
+
+
 ## 🎯 The Idea  
 The platform **simulates real-life scenarios** where constitutional awareness is crucial. Through **interactive storytelling**, users experience the consequences of lacking constitutional knowledge, emphasizing the importance of understanding their rights and responsibilities.  
 
