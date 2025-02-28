@@ -4,7 +4,9 @@
 ## Overview  
 Citizen & Constitution is a **gamified learning platform** designed to educate citizens about their **constitutional rights** through engaging and interactive methods. Developed for **Smart India Hackathon (SIH) 2024** under the theme *Smart Education*, this project leverages **story-based learning** and **AI-driven interactions** to make constitutional literacy more accessible and impactful.  
 
-[![Watch the video](https://img.youtube.com/vi/OO9dnwtZrN4/0.jpg)](https://www.youtube.com/watch?v=OO9dnwtZrN4)  
+<a href="https://www.youtube.com/watch?v=OO9dnwtZrN4">
+  <img src="https://img.youtube.com/vi/OO9dnwtZrN4/0.jpg" alt="Watch the video" width="100%">
+</a> 
 
 🔗 [Watch the video on YouTube](https://www.youtube.com/watch?v=OO9dnwtZrN4)  
 
